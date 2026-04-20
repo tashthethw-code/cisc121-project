@@ -36,17 +36,31 @@ User enters songs → Merge Sort runs → Sorted playlist is displayed
 ---
 
 ## Flowchart
-
-A[Start] --> B[User inputs song list + sort key]
-B --> C[Run Quick Sort]
-C --> D[Select pivot]
-D --> E[Partition list into < pivot and ≥ pivot]
-E --> F[Recursively sort partitions]
-F --> G[Display current list order with highlights]
-G --> H{Sorted?}
-H -- No --> D
-H -- Yes --> I[Show final sorted playlist]
-I --> J[End]
+Start
+↓
+User enters playlist + chooses sort key (energy/duration)
+↓
+Parse input into list of songs
+↓
+Is list size ≤ 1?
+→ Yes → Return list (already sorted)
+→ No ↓
+Split list into left half and right half
+↓
+Apply Merge Sort to left half
+↓
+Apply Merge Sort to right half
+↓
+Merge the two sorted halves:
+   - Compare elements
+   - Place smaller value first
+   - Continue until merged
+↓
+Final sorted list created
+↓
+Display sorted playlist
+↓
+End
 
 ---
 
