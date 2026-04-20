@@ -36,8 +36,9 @@ User enters songs → Merge Sort runs → Sorted playlist is displayed
 ---
 
 ## Flowchart
-User Input → Parse Data → Merge Sort → Output Sorted Playlist
+## Flowchart
 
+![Flowchart](flowchart.png)
 ---
 
 ## Steps to Run Locally
