@@ -36,9 +36,18 @@ User enters songs → Merge Sort runs → Sorted playlist is displayed
 ---
 
 ## Flowchart
-## Flowchart
 
-![Flowchart](flowchart.png)
+A[Start] --> B[User inputs song list + sort key]
+B --> C[Run Quick Sort]
+C --> D[Select pivot]
+D --> E[Partition list into < pivot and ≥ pivot]
+E --> F[Recursively sort partitions]
+F --> G[Display current list order with highlights]
+G --> H{Sorted?}
+H -- No --> D
+H -- Yes --> I[Show final sorted playlist]
+I --> J[End]
+
 ---
 
 ## Steps to Run Locally
