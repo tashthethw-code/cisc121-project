@@ -42,20 +42,21 @@ User enters playlist + chooses sort key (energy/duration)
 ↓
 Parse input into list of songs
 ↓
-Is list size ≤ 1?
-→ Yes → Return list (already sorted)
-→ No ↓
-Split list into left half and right half
-↓
-Apply Merge Sort to left half
-↓
-Apply Merge Sort to right half
-↓
-Merge the two sorted halves:
-   - Compare elements
-   - Place smaller value first
-   - Continue until merged
-↓
+Check: Is list size ≤ 1?
+    ├── Yes → Return list (already sorted)
+    └── No
+         ↓
+    Split list into left half and right half
+         ↓
+    Apply Merge Sort to left half
+         ↓
+    Apply Merge Sort to right half
+         ↓
+    Merge the two sorted halves:
+         • Compare elements
+         • Place smaller value first
+         • Continue until merged
+         ↓
 Final sorted list created
 ↓
 Display sorted playlist
