@@ -57,6 +57,24 @@ https://huggingface.co/spaces/Wafi1234/playlist-merge-sort
 
 ---
 
+## How to Use the App
+1. Enter songs in this format:
+   title, artist, energy, duration
+
+2. Each song should be on a new line.
+
+Example:
+Song A, Drake, 80, 200  
+Song B, Weeknd, 60, 180  
+
+3. Choose a sorting option:
+- energy
+- duration
+
+4. Click "Submit" to see the sorted playlist.
+
+---
+
 ## Testing
 Tested with:
 - Normal input (multiple songs)
