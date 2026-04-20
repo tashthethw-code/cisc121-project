@@ -52,7 +52,8 @@ User Input → Parse Data → Merge Sort → Output Sorted Playlist
 ---
 
 ## Hugging Face Link
-(Add your Hugging Face link here)
+https://huggingface.co/spaces/Wafi1234/playlist-merge-sort 
+
 
 ---
 
@@ -68,7 +69,7 @@ All cases returned correct results or appropriate error messages.
 ---
 
 ## Author
-Your Name
+Tashtheth Wafi
 
 ## Acknowledgment
-Used AI (ChatGPT) to assist with debugging and understanding structure. Final code was reviewed and modified manually.
+Used AI to assist with debugging and understanding structure. Final code was reviewed and modified by myself
